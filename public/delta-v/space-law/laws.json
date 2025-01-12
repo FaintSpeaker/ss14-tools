@@ -1,0 +1,299 @@
+[
+  {
+    "category":"Misdemeanor",
+    "colour": "",
+    "violations": [
+      {
+        "code": 101,
+        "description": "To inflict unnecessary suffering on a sapient being with malicious intent. ",
+        "severity": "Misdemeanor",
+        "title": "Animal Cruelty",
+        "minutes": 5,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 102,
+        "description": "To verbally demean, humiliate, or harass an entity with malice; or maliciously spread false information amongst a population. ",
+        "severity": "Misdemeanor",
+        "title": "Harassment",
+        "minutes": 5,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 103,
+        "description": "To perform the responsibility and duty of a law enforcement official without approval or due cause to act. ",
+        "severity": "Misdemeanor",
+        "title": "Vigilantism",
+        "minutes": 4,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 104,
+        "description": "To deprive an entity of an item in their lawful property without consent. ",
+        "severity": "Misdemeanor",
+        "title": "Theft",
+        "minutes": 4,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 105,
+        "description": "To enter into an area where one is not authorised nor invited. ",
+        "severity": "Misdemeanor",
+        "title": "Trespass",
+        "minutes": 3,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 106,
+        "description": "To deface or superficially damage public property, or property belonging to another person. ",
+        "severity": "Misdemeanor",
+        "title": "Vandalism",
+        "minutes": 3,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 107,
+        "description": "To intentionally and maliciously engage in disruptive conduct, where one refuses to cease. ",
+        "severity": "Misdemeanor",
+        "title": "Hooliganism",
+        "minutes": 1,
+        "useCustomMinutes": true,
+        "isCapital": false,
+        "minutesMax": 5
+      }
+    ]
+  },
+  {
+    "category": "Felony",
+    "colour": "",
+    "violations": [
+      {
+        "code": 201,
+        "description": "To cause physical harm or to effect unwanted physical contact on a sophont, without the apparent intent to kill them, or to threaten such actions with both capability and intent to do so. ",
+        "severity": "Felony",
+        "title": "Assault",
+        "minutes": 10,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 202,
+        "description": "To break and enter into a high security area where one is not authorised nor invited, with intent to commit a crime within. ",
+        "severity": "Felony",
+        "title": "Breaking and Entering",
+        "minutes": 10,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 203,
+        "description": "To partake in an unauthorised riotous, tumultuous, and disruptive public assembly that refuses to disperse after warning. ",
+        "severity": "Felony",
+        "title": "Rioting",
+        "minutes": 8,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 204,
+        "description": "To recklessly abandon obligations involving the continued wellbeing and/or protection of life and property, through malpractice, action, or inaction. ",
+        "severity": "Felony",
+        "title": "Endangerment",
+        "minutes": 8,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 205,
+        "description": "To be in unauthorised possession of restricted items or items of particular danger. See Controlled Substances/Items, Controlled Armaments. ",
+        "severity": "Felony",
+        "title": "Possession",
+        "minutes": 5,
+        "useCustomMinutes": true,
+        "isCapital": false,
+        "minutesMax": 10
+      },
+      {
+        "code": 206,
+        "description": "To wilfully disobey, interfere with, or refuse a decree of the court, warrant, or arrest. ",
+        "severity": "Felony",
+        "title": "Obstruction of Justice",
+        "minutes": 8,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 207,
+        "description": "To wilfully and maliciously tell an untruth either in court or in the process of making an actionable report to law enforcement. ",
+        "severity": "Felony",
+        "title": "Perjury or False Report",
+        "minutes": 6,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 208,
+        "description": "To conduct oneself disruptively and disrespectfully before the court. ",
+        "severity": "Felony",
+        "title": "Contempt of Court",
+        "minutes": 6,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 209,
+        "description": "To maliciously assume the identity of an entity, such as through writing, attire, and/or speech. ",
+        "severity": "Felony",
+        "title": "Identity Theft",
+        "minutes": 5,
+        "useCustomMinutes": false,
+        "isCapital": false
+      }
+    ]
+  },
+  {
+    "category": "Grand Felony",
+    "colour": "",
+    "violations": [
+      {
+        "code": 301,
+        "description": "To act without malice in a manner which, directly or indirectly, leads to the death of a sophont. ",
+        "severity": "Grand Felony",
+        "title": "Manslaughter",
+        "minutes": 16,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 302,
+        "description": "To unlawfully confine or restrict the free movement of an entity against its will. ",
+        "severity": "Grand Felony",
+        "title": "Kidnapping",
+        "minutes": 16,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 303,
+        "description": "To be in the possession of a Category C, D, or E Controlled Armament. ",
+        "severity": "Grand Felony",
+        "title": "Grand Possession",
+        "minutes": 15,
+        "useCustomMinutes": true,
+        "isCapital": false,
+        "minutesMax": 25
+      },
+      {
+        "code": 304,
+        "description": "To unlawfully and maliciously rid a psionic of their powers ",
+        "severity": "Grand Felony",
+        "title": "Mindbreaking",
+        "minutes": 14,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 305,
+        "description": "To maliciously commit an act that, directly or indirectly, hinders the operation of a vessel of its part; or, to commit an act that modifies and/or damages technology or equipment one is not authorized to access. ",
+        "severity": "Grand Felony",
+        "title": "Sabotage",
+        "minutes": 14,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 306,
+        "description": "To intentionally misuse or wrongfully exercise one's own authority, influence, or control, resulting in harm, unjust treatment, or demonstratable loss to another entity. ",
+        "severity": "Grand Felony",
+        "title": "Abuse of Power",
+        "minutes": 14,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 307,
+        "description": "To deprive an entity of any Controlled Item in their lawful possession. ",
+        "severity": "Grand Felony",
+        "title": "Grand Larceny",
+        "minutes": 12,
+        "useCustomMinutes": false,
+        "isCapital": false
+      },
+      {
+        "code": 308,
+        "description": "To sell, distribute, or otherwise circulate Controlled Items to unauthorized entities. ",
+        "severity": "Grand Felony",
+        "title": "Black Marketeering",
+        "minutes": 12,
+        "useCustomMinutes": false,
+        "isCapital": false
+      }
+    ]
+  },
+  {
+    "category": "Capital",
+    "colour": "",
+    "violations": [
+      {
+        "code": 401,
+        "description": "To maliciously commit an act resulting in the death of a sophont, with reckless indifference to their life. ",
+        "severity": "Capital",
+        "title": "Murder",
+        "minutes": 0,
+        "useCustomMinutes": false,
+        "isCapital": true
+      },
+      {
+        "code": 402,
+        "description": "To maliciously commit an act or take hostages with reckless indifference to life in order to provoke a state of terror in, intimidate, or otherwise compel an entity to act or abstain from acting. ",
+        "severity": "Capital",
+        "title": "Terrorism",
+        "minutes": 0,
+        "useCustomMinutes": false,
+        "isCapital": true
+      },
+      {
+        "code": 403,
+        "description": "To maliciously commit an act that, directly or indirectly, renders a vessel or its part uninhabitable or inoperable; or, to commit an act that causes irreversible damage to High Security Areas and/or systems of a vessel. ",
+        "severity": "Capital",
+        "title": "Grand Sabotage",
+        "minutes": 0,
+        "useCustomMinutes": false,
+        "isCapital": true
+      },
+      {
+        "code": 404,
+        "description": "To commit an act that prevents the revival of a sophont by standard medical care following their death. ",
+        "severity": "Capital",
+        "title": "Prevention of Revival",
+        "minutes": 0,
+        "useCustomMinutes": false,
+        "isCapital": true
+      },
+      {
+        "code": 405,
+        "description": "To act to overthrow a lawfully established Chain of Command or governing body without lawful or legitimate cause. ",
+        "severity": "Capital",
+        "title": "Sedition",
+        "minutes": 0,
+        "useCustomMinutes": false,
+        "isCapital": true
+      },
+      {
+        "code": 406,
+        "description": "To escape the custody of law enforcement while serving a legal sentence, or awaiting trial for a capital offense. ",
+        "severity": "Capital",
+        "title": "Breach of Custody",
+        "minutes": 0,
+        "useCustomMinutes": false,
+        "isCapital": true
+      }
+    ]
+  }
+]

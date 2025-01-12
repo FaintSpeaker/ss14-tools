@@ -1,0 +1,96 @@
+[
+  {
+    "category": "Aggravating",
+    "modifiers": [
+      {
+        "name": "Solicitation",
+        "type": "Aggravating",
+        "description": "Any sophont found guilty of encouraging, bribing, requesting, or instructing someone to commit a crime, with the intent that the sophont being solicited commit the crime, will receive for the crimes they solicited in full. ",
+        "perCrime": true,
+        "prefix": "Solicitation to commit "
+      },
+      {
+        "name": "Accessory",
+        "type": "Aggravating",
+        "description": "Any sophont found guilty of assisting in the commission of a crime, without participating in the crime itself, knowing that a crime will be, has been, or is being committed, will receive the sentence for the crimes in which they took part in full. ",
+        "perCrime": true,
+        "prefix": "Accessory to "
+      },
+      {
+        "name": "Attempts",
+        "type": "Aggravating",
+        "description": "Any sophont found guilty of attempting to commit a crime, with the intent to carry out that crime, will receive the sentence for the crimes they attempted in full. ",
+        "perCrime": true,
+        "prefix": "Attempted "
+      },
+      {
+        "name": "Conspiracy",
+        "type": "Aggravating",
+        "description": "Any sophont found guilty of planning to commit a crime, with the intent to carry out that crime eventually, and having committed an overt act pursuant to that end, will receive the sentence for the crimes they conspired towards in full. ",
+        "perCrime": true,
+        "prefix": "Conspiracy to commit "
+      },
+      {
+        "name": "Deadly Weapon",
+        "type": "Aggravating",
+        "description": "Any sophont found guilty of committing a crime, utilising any object used offensively for the purpose of inflicting mortal or great bodily harm, will receive an additional modifier of, at most, +50% of the original sentence. ",
+        "perCrime": true,
+        "timeMultiplier": 1.5,
+        "suffix": " with a deadly weapon"
+      },
+      {
+        "name": "Aggravation",
+        "type": "Aggravating",
+        "description": "Any sophont found guilty of committing a crime with reckless abandon, evident signs of lack of regret or remorse, or blatant disregard for potential collateral damage, will receive an additional modifier of, at most, +50% of the original sentence. ",
+        "perCrime": true,
+        "timeMultiplier": 1.5,
+        "prefix": "Aggravated "
+      },
+      {
+        "name": "Recidivism",
+        "type": "Aggravating",
+        "description": "Any sophont convicted of the same criminal charge multiple times within one shift will receive an additional modifier of, at most, +100% of the original sentence. ",
+        "perCrime": true,
+        "timeMultiplier": 2,
+        "prefix": "Repeated "
+      }
+    ]
+  },
+  {
+    "category": "Extenuating",
+    "modifiers": [
+      {
+        "name": "Cooperation",
+        "type": "Extenuating",
+        "description": "Any sophont who shares actionable intelligence with the authorities, turns oneself in, testifies against accomplices, confesses to their crime, or otherwise aids the prosecution, may have their sentence reduced to no less than 50% of the original sentence.",
+        "perCrime": false,
+        "timeMultiplier": 0.5
+      },
+      {
+        "name": "Dire Emergency",
+        "type": "Extenuating",
+        "description": "Any sophont found to have committed a crime in the process of absolutely necessary and reasonable actions, taken with the intent to resolve or mitigate the effects of a dire emergency on one’s vessel or habitat, may have their sentence reduced by any amount, or completely waived.",
+        "perCrime": true,
+        "timeMultiplier": 0.5,
+        "canWaive": true,
+        "suffix": " mitigating a dire emergency"
+      },
+      {
+        "name": "Self-Defence",
+        "type": "Extenuating",
+        "description": "Any sophont found to have committed a crime or crimes in protection of oneself or another, and only to the necessary extent to avert a direct and imminent threat to the health and life of innocent persons, may have their sentence reduced by any amount, or completely waived. ",
+        "perCrime": true,
+        "timeMultiplier": 0.5,
+        "canWaive": true,
+        "suffix": " in self-defence"
+      },
+      {
+        "name": "Good Behavior",
+        "type": "Extenuating",
+        "description": "Any convict who peacefully complies with the authorities, displays clear signs of remorse concerning the committed crime, and/or conducts themselves peacefully while imprisoned, may be paroled as outlined in the Standard Operating Procedures. ",
+        "perCrime": false,
+        "timeMultiplier": 0.5
+      }
+    ]
+  }
+]

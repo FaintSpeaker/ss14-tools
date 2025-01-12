@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Security",
+    "color": "#cb0000",
+    "defaultHeader": null
+  },
+  {
+    "name": "Epistemics",
+    "color": "#c96dbf",
+    "defaultHeader": null
+  },
+  {
+    "name": "Medical",
+    "color": "#5b97bc",
+    "defaultHeader": null
+  },
+  {
+    "name": "Cargo",
+    "color": "#b18644",
+    "defaultHeader": null
+  },
+  {
+    "name": "Engineering",
+    "color": "#f39f27",
+    "defaultHeader": null
+  },
+  {
+    "name": "Clown",
+    "color": "#ff2fff",
+    "defaultHeader": null
+  },
+  {
+    "name": "Service",
+    "color": "#9fed58",
+    "defaultHeader": null
+  },
+  {
+    "name": "Passenger",
+    "color": "#6e6e6e",
+    "defaultHeader": null
+  },
+  {
+    "name": "Command",
+    "color": "#1b67a5",
+    "defaultHeader": null
+  },
+  {
+    "name": "CentCom",
+    "color": "#009100",
+    "defaultHeader": null
+  },
+  {
+    "name": "Nanotrasen",
+    "color": "#134975",
+    "defaultHeader": null
+  },
+  {
+    "name": "Syndicate",
+    "color": "#ff0000",
+    "defaultHeader": null
+  },
+  {
+    "name": "Justice",
+    "color": "#C70667",
+    "defaultHeader": null
+  }
+]
